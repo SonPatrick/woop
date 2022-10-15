@@ -12,14 +12,14 @@ ThemeData theme = ThemeData(
         fontStyle: FontStyle.normal,
         color: primary),
   ),
-  bottomNavigationBarTheme: BottomNavigationBarThemeData(
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(
     backgroundColor: secondary,
     elevation: 0.0,
     type: BottomNavigationBarType.fixed,
     showUnselectedLabels: false,
     showSelectedLabels: true,
-    unselectedItemColor: secondary.withOpacity(0.5),
-    selectedItemColor: secondary,
+    unselectedItemColor: Colors.white38,
+    selectedItemColor: backgroundLight,
   ),
   floatingActionButtonTheme: const FloatingActionButtonThemeData(
     elevation: 0.5,
