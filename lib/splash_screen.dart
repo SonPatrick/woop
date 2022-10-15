@@ -22,10 +22,10 @@ class _SplashScreenState extends State<SplashScreen> {
               MaterialPageRoute(builder: (context) => const Dashboard())),
           animatedTexts: [
             WavyAnimatedText(
-              speed: const Duration(milliseconds: 220),
+              speed: const Duration(milliseconds: 210),
               'Woop!',
               textStyle: const TextStyle(
-                color: primary,
+                color: Colors.white,
                 fontSize: 50,
                 fontWeight: FontWeight.bold,
                 fontStyle: FontStyle.normal,

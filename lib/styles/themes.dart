@@ -16,7 +16,7 @@ ThemeData theme = ThemeData(
     backgroundColor: secondary,
     elevation: 0.0,
     type: BottomNavigationBarType.fixed,
-    showUnselectedLabels: false,
+    showUnselectedLabels: true,
     showSelectedLabels: true,
     unselectedItemColor: Colors.white38,
     selectedItemColor: backgroundLight,

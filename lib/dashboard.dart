@@ -40,7 +40,8 @@ class _DashboardState extends State<Dashboard> {
           ),
           BottomNavigationBarItem(
               icon: Icon(LineIcons.creditCard), label: 'Cartões'),
-          BottomNavigationBarItem(icon: Icon(LineIcons.gem), label: 'Investir'),
+          BottomNavigationBarItem(
+              icon: Icon(LineIcons.gem), label: 'Investimento'),
           BottomNavigationBarItem(icon: Icon(LineIcons.users), label: 'Coop'),
         ],
       ),
