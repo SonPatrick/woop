@@ -1,6 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:woop/home.dart';
+import 'package:woop/dashboard.dart';
 import 'package:woop/styles/colours.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,11 +18,11 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: AnimatedTextKit(
           repeatForever: false,
-          onFinished: () => Navigator.push(
-              context, MaterialPageRoute(builder: (context) => const Home())),
+          onFinished: () => Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const Dashboard())),
           animatedTexts: [
             WavyAnimatedText(
-              speed: const Duration(milliseconds: 270),
+              speed: const Duration(milliseconds: 220),
               'Woop!',
               textStyle: const TextStyle(
                 color: primary,
