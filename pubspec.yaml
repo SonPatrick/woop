@@ -14,6 +14,7 @@ dependencies:
 
   intl: ^0.17.0
   http: ^0.13.5
+  shimmer: ^2.0.0
   sqflite: ^2.1.0
   iconsax: ^0.0.8
   latlong2: ^0.8.1
