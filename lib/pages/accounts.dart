@@ -30,29 +30,79 @@ class _AccountsState extends State<Accounts> {
             backgroundColor: secondary),
         body: SingleChildScrollView(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              Center(
+                child: Container(
+                  color: secondary,
+                  height: 80,
+                  child: ListView(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+
+                    // ignore: sort_child_properties_last
+                    children: [
+                      FloatingActionButton(
+                        heroTag: 'fab1',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child: const Icon(LineIcons.creditCard,
+                            color: Colors.white),
+                      ),
+                      const SizedBox(width: 10),
+                      FloatingActionButton(
+                        heroTag: 'fab2',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child:
+                            const Icon(LineIcons.paypal, color: Colors.white),
+                      ),
+                      const SizedBox(width: 10),
+                      FloatingActionButton(
+                        heroTag: 'fab3',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child: const Icon(LineIcons.moneyBill,
+                            color: Colors.white),
+                      ),
+                      const SizedBox(width: 10),
+                      FloatingActionButton(
+                        heroTag: 'fab4',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child: const Icon(LineIcons.piggyBank,
+                            color: Colors.white),
+                      ),
+                      const SizedBox(width: 10),
+                      FloatingActionButton(
+                        heroTag: 'fab5',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child: const Icon(LineIcons.creditCard,
+                            color: Colors.white),
+                      ),
+                      const SizedBox(width: 10),
+                      FloatingActionButton(
+                        heroTag: 'fab6',
+                        onPressed: () {},
+                        backgroundColor: primary,
+                        child:
+                            const Icon(LineIcons.paypal, color: Colors.white),
+                      ),
+                    ],
+                    scrollDirection: Axis.horizontal,
+                  ),
+                ),
+              ),
               Container(
                 height: MediaQuery.of(context).size.height * 0.30,
                 width: MediaQuery.of(context).size.width,
                 decoration: const BoxDecoration(
-                    color: secondary,
-                    borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(35),
-                        bottomRight: Radius.circular(35)),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Color.fromARGB(255, 231, 231, 231),
-                        offset: Offset(10, 10),
-                        blurRadius: 5,
-                        spreadRadius: 0.3,
-                      ),
-                      BoxShadow(
-                        color: Color.fromARGB(255, 231, 231, 231),
-                        offset: Offset(-1, -1),
-                        blurRadius: 1,
-                        spreadRadius: 1,
-                      ),
-                    ]),
+                  color: secondary,
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(35),
+                      bottomRight: Radius.circular(35)),
+                ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,

@@ -23,6 +23,6 @@ ThemeData theme = ThemeData(
   ),
   floatingActionButtonTheme: const FloatingActionButtonThemeData(
     elevation: 0.5,
-    backgroundColor: principal,
+    backgroundColor: primary,
   ),
 );
