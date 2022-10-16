@@ -4,6 +4,9 @@ import 'package:line_icons/line_icons.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:woop/styles/colours.dart';
 
+// ignore: todo
+//TODO fazer o redesign do layout usando Slivers para ficar mais estilizado e centralizar os botões
+
 class Accounts extends StatefulWidget {
   const Accounts({super.key});
 
