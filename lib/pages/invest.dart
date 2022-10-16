@@ -10,6 +10,14 @@ class Invest extends StatefulWidget {
 class _InvestState extends State<Invest> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [Container()],
+          ),
+        ),
+      ),
+    );
   }
 }
