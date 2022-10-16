@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:woop/pages/accounts.dart';
 import 'package:woop/pages/coop.dart';
+import 'package:woop/pages/accounts.dart';
 import 'package:woop/pages/credit_cards.dart';
 import 'package:woop/pages/invest.dart';
 
